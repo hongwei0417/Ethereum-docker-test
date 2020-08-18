@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# 清空區塊鏈資料
+./clear.sh
+
 # 產生三個帳號
 geth  account new \
     --datadir "/root/my-node" \
