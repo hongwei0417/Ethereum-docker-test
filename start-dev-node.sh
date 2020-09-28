@@ -6,7 +6,7 @@ docker run \
     -it \
     --name "eth-node2" \
     -p 8546:8545 \
-    -p 30304:30305 \
+    -p 30304:30303 \
     -v "$PWD/dev-node":"/root" \
     ethereum/client-go \
         --datadir "/root/my-node" \
